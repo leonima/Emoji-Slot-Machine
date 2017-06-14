@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983105CE1EF193BB00EDBE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983105CD1EF193BB00EDBE18 /* AppDelegate.swift */; };
+		983105D01EF193BB00EDBE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983105CF1EF193BB00EDBE18 /* ViewController.swift */; };
+		983105D31EF193BB00EDBE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983105D11EF193BB00EDBE18 /* Main.storyboard */; };
+		983105D51EF193BB00EDBE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983105D41EF193BB00EDBE18 /* Assets.xcassets */; };
+		983105D81EF193BB00EDBE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983105D61EF193BB00EDBE18 /* LaunchScreen.storyboard */; };
+		983105E31EF193BB00EDBE18 /* Emoji_Slot_MachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983105E21EF193BB00EDBE18 /* Emoji_Slot_MachineTests.swift */; };
+		983105EE1EF193BB00EDBE18 /* Emoji_Slot_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983105ED1EF193BB00EDBE18 /* Emoji_Slot_MachineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983105DF1EF193BB00EDBE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983105C21EF193BB00EDBE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983105C91EF193BB00EDBE18;
+			remoteInfo = "Emoji Slot Machine";
+		};
+		983105EA1EF193BB00EDBE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983105C21EF193BB00EDBE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983105C91EF193BB00EDBE18;
+			remoteInfo = "Emoji Slot Machine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983105CA1EF193BB00EDBE18 /* Emoji Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983105CD1EF193BB00EDBE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		983105CF1EF193BB00EDBE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		983105D21EF193BB00EDBE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		983105D41EF193BB00EDBE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		983105D71EF193BB00EDBE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		983105D91EF193BB00EDBE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983105DE1EF193BB00EDBE18 /* Emoji Slot MachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji Slot MachineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983105E21EF193BB00EDBE18 /* Emoji_Slot_MachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_Slot_MachineTests.swift; sourceTree = "<group>"; };
+		983105E41EF193BB00EDBE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983105E91EF193BB00EDBE18 /* Emoji Slot MachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji Slot MachineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983105ED1EF193BB00EDBE18 /* Emoji_Slot_MachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_Slot_MachineUITests.swift; sourceTree = "<group>"; };
+		983105EF1EF193BB00EDBE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983105C71EF193BB00EDBE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105DB1EF193BB00EDBE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105E61EF193BB00EDBE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983105C11EF193BB00EDBE18 = {
+			isa = PBXGroup;
+			children = (
+				983105CC1EF193BB00EDBE18 /* Emoji Slot Machine */,
+				983105E11EF193BB00EDBE18 /* Emoji Slot MachineTests */,
+				983105EC1EF193BB00EDBE18 /* Emoji Slot MachineUITests */,
+				983105CB1EF193BB00EDBE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983105CB1EF193BB00EDBE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983105CA1EF193BB00EDBE18 /* Emoji Slot Machine.app */,
+				983105DE1EF193BB00EDBE18 /* Emoji Slot MachineTests.xctest */,
+				983105E91EF193BB00EDBE18 /* Emoji Slot MachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983105CC1EF193BB00EDBE18 /* Emoji Slot Machine */ = {
+			isa = PBXGroup;
+			children = (
+				983105CD1EF193BB00EDBE18 /* AppDelegate.swift */,
+				983105CF1EF193BB00EDBE18 /* ViewController.swift */,
+				983105D11EF193BB00EDBE18 /* Main.storyboard */,
+				983105D41EF193BB00EDBE18 /* Assets.xcassets */,
+				983105D61EF193BB00EDBE18 /* LaunchScreen.storyboard */,
+				983105D91EF193BB00EDBE18 /* Info.plist */,
+			);
+			path = "Emoji Slot Machine";
+			sourceTree = "<group>";
+		};
+		983105E11EF193BB00EDBE18 /* Emoji Slot MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				983105E21EF193BB00EDBE18 /* Emoji_Slot_MachineTests.swift */,
+				983105E41EF193BB00EDBE18 /* Info.plist */,
+			);
+			path = "Emoji Slot MachineTests";
+			sourceTree = "<group>";
+		};
+		983105EC1EF193BB00EDBE18 /* Emoji Slot MachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				983105ED1EF193BB00EDBE18 /* Emoji_Slot_MachineUITests.swift */,
+				983105EF1EF193BB00EDBE18 /* Info.plist */,
+			);
+			path = "Emoji Slot MachineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983105C91EF193BB00EDBE18 /* Emoji Slot Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983105F21EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot Machine" */;
+			buildPhases = (
+				983105C61EF193BB00EDBE18 /* Sources */,
+				983105C71EF193BB00EDBE18 /* Frameworks */,
+				983105C81EF193BB00EDBE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Slot Machine";
+			productName = "Emoji Slot Machine";
+			productReference = 983105CA1EF193BB00EDBE18 /* Emoji Slot Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983105DD1EF193BB00EDBE18 /* Emoji Slot MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983105F51EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot MachineTests" */;
+			buildPhases = (
+				983105DA1EF193BB00EDBE18 /* Sources */,
+				983105DB1EF193BB00EDBE18 /* Frameworks */,
+				983105DC1EF193BB00EDBE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983105E01EF193BB00EDBE18 /* PBXTargetDependency */,
+			);
+			name = "Emoji Slot MachineTests";
+			productName = "Emoji Slot MachineTests";
+			productReference = 983105DE1EF193BB00EDBE18 /* Emoji Slot MachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		983105E81EF193BB00EDBE18 /* Emoji Slot MachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983105F81EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot MachineUITests" */;
+			buildPhases = (
+				983105E51EF193BB00EDBE18 /* Sources */,
+				983105E61EF193BB00EDBE18 /* Frameworks */,
+				983105E71EF193BB00EDBE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983105EB1EF193BB00EDBE18 /* PBXTargetDependency */,
+			);
+			name = "Emoji Slot MachineUITests";
+			productName = "Emoji Slot MachineUITests";
+			productReference = 983105E91EF193BB00EDBE18 /* Emoji Slot MachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983105C21EF193BB00EDBE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ziyun Ma";
+				TargetAttributes = {
+					983105C91EF193BB00EDBE18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					983105DD1EF193BB00EDBE18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 983105C91EF193BB00EDBE18;
+					};
+					983105E81EF193BB00EDBE18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 983105C91EF193BB00EDBE18;
+					};
+				};
+			};
+			buildConfigurationList = 983105C51EF193BB00EDBE18 /* Build configuration list for PBXProject "Emoji Slot Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983105C11EF193BB00EDBE18;
+			productRefGroup = 983105CB1EF193BB00EDBE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983105C91EF193BB00EDBE18 /* Emoji Slot Machine */,
+				983105DD1EF193BB00EDBE18 /* Emoji Slot MachineTests */,
+				983105E81EF193BB00EDBE18 /* Emoji Slot MachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983105C81EF193BB00EDBE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983105D81EF193BB00EDBE18 /* LaunchScreen.storyboard in Resources */,
+				983105D51EF193BB00EDBE18 /* Assets.xcassets in Resources */,
+				983105D31EF193BB00EDBE18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105DC1EF193BB00EDBE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105E71EF193BB00EDBE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983105C61EF193BB00EDBE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983105D01EF193BB00EDBE18 /* ViewController.swift in Sources */,
+				983105CE1EF193BB00EDBE18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105DA1EF193BB00EDBE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983105E31EF193BB00EDBE18 /* Emoji_Slot_MachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983105E51EF193BB00EDBE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983105EE1EF193BB00EDBE18 /* Emoji_Slot_MachineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983105E01EF193BB00EDBE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983105C91EF193BB00EDBE18 /* Emoji Slot Machine */;
+			targetProxy = 983105DF1EF193BB00EDBE18 /* PBXContainerItemProxy */;
+		};
+		983105EB1EF193BB00EDBE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983105C91EF193BB00EDBE18 /* Emoji Slot Machine */;
+			targetProxy = 983105EA1EF193BB00EDBE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983105D11EF193BB00EDBE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983105D21EF193BB00EDBE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		983105D61EF193BB00EDBE18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983105D71EF193BB00EDBE18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983105F01EF193BB00EDBE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		983105F11EF193BB00EDBE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		983105F31EF193BB00EDBE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Emoji Slot Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		983105F41EF193BB00EDBE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Emoji Slot Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		983105F61EF193BB00EDBE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Emoji Slot MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Slot Machine.app/Emoji Slot Machine";
+			};
+			name = Debug;
+		};
+		983105F71EF193BB00EDBE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Emoji Slot MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Slot Machine.app/Emoji Slot Machine";
+			};
+			name = Release;
+		};
+		983105F91EF193BB00EDBE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Emoji Slot MachineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-MachineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Slot Machine";
+			};
+			name = Debug;
+		};
+		983105FA1EF193BB00EDBE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Emoji Slot MachineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rubber-Duckies.Emoji-Slot-MachineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Slot Machine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983105C51EF193BB00EDBE18 /* Build configuration list for PBXProject "Emoji Slot Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983105F01EF193BB00EDBE18 /* Debug */,
+				983105F11EF193BB00EDBE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983105F21EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983105F31EF193BB00EDBE18 /* Debug */,
+				983105F41EF193BB00EDBE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		983105F51EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983105F61EF193BB00EDBE18 /* Debug */,
+				983105F71EF193BB00EDBE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		983105F81EF193BB00EDBE18 /* Build configuration list for PBXNativeTarget "Emoji Slot MachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983105F91EF193BB00EDBE18 /* Debug */,
+				983105FA1EF193BB00EDBE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983105C21EF193BB00EDBE18 /* Project object */;
+}
